@@ -1,0 +1,16 @@
+.container {
+  margin: 20px 0;
+}
+
+.price {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.discountMessage {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+}

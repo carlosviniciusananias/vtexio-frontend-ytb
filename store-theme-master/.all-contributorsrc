@@ -1,0 +1,25 @@
+{
+  "projectName": "store-theme",
+  "projectOwner": "vtex-apps",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "docs/README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "hugocostadev",
+      "name": "Hugo Costa",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20212776?v=4",
+      "profile": "http://www.hugoccosta.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}

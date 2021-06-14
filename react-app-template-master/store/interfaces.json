@@ -1,0 +1,8 @@
+{
+  "appexample": {
+    "component": "HelloWorld"
+  },
+  "discount": {
+    "component": "Discount"
+  }
+}
