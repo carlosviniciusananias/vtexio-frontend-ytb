@@ -10,11 +10,11 @@ const Discount: StorefrontFunctionComponent = () => {
   const handles = useCssHandles(CSS_HANDLES)
   const [price, setPrice] = useState<number>(0)
   const [loading, setLoading] = useState<boolean>(false)
-  const [discountTotal, setDiscountTotal] = useState<number>(0)
+  const [discountTotal, setDiscountTotal] = useState<string>('')
 
   useEffect(() => {
     if (productContext && productContext.product) {
-      setPrice(productContext.product.priceRange.sellingPrice.highPrice)
+      setPrice(productContext.product.priceRange.sellingPrice.lowPrice)
 
       DiscountCalcution()
     }
@@ -24,16 +24,16 @@ const Discount: StorefrontFunctionComponent = () => {
     const discount = price * 0.05
     const priceFinal = price - discount
 
-    setDiscountTotal(priceFinal)
+    setDiscountTotal(priceFinal.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'}))
     setLoading(true)
   }
 
   const RenderDiscountPrice = () => {
     return (
-      <div className={`${handles.container}`}>
-        <div className={`${handles.price}`}>{discountTotal}</div>
-        <div className={`${handles.discountMessage}`}>à vista no boleto com 5% de desconto</div>
-      </div>
+      <Container className={`${handles.container}`}>
+        <Price className={`${handles.price}`}>{discountTotal}</Price>
+        <Message className={`${handles.discountMessage}`}>à vista no boleto com 5% de desconto</Message>
+      </Container>
     )
   }
 
