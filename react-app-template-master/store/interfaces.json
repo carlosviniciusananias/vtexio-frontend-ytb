@@ -1,6 +1,9 @@
 {
-  "appexample": {
+  "hello-world": {
     "component": "HelloWorld"
+  },
+  "query-example": {
+    "component": "QueryExample"
   },
   "discount": {
     "component": "Discount"

@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vtex.product-context": "0.x",
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.order-placed-graphql": "1.x"
   },
   "registries": [
     "smartcheckout"

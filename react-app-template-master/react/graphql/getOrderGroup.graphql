@@ -1,0 +1,15 @@
+query getOrderGroup($orderGroup: String) {
+  orderGroup(orderGroup: $orderGroup) {
+    orders {
+      items {
+        id
+        skuName
+        name
+        productId
+        price
+        listPrice
+        quantity
+      }
+    }
+  }
+}

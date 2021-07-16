@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useProduct } from 'vtex.product-context'
 import { useCssHandles } from 'vtex.css-handles'
-import styled from 'styled-components'
 
 const CSS_HANDLES = ['container', 'price', 'discountMessage']
 
@@ -43,14 +42,5 @@ const Discount: StorefrontFunctionComponent = () => {
     </>
   )
 }
-
-const Container = styled.div``
-
-const Price = styled.div``
-
-const Message = styled.div`
-  font-style: italic;
-  color: red;
-`
 
 export default Discount
