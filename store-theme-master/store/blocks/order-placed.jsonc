@@ -29,8 +29,7 @@
       "marginTop": 8,
       "marginBottom": 8,
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preventHorizontalStretch": true
     },
     "children": ["flex-layout.col#confirmation-buttons"]
   },
@@ -48,6 +47,7 @@
   // each order section
   "op-order": {
     "children": [
+      "query-example",
       "flex-layout.row#order-header",
       "op-order-split-notice",
       "op-order-customer",

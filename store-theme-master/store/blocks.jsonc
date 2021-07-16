@@ -9,7 +9,7 @@
  */
 {
   "store.orderplaced": {
-    "blocks": ["order-placed"]
+    "children": ["order-placed"]
   },
 
   "store.account": {
