@@ -1,0 +1,22 @@
+{
+  "store.custom#calculator": {
+    "children": [
+      "flex-layout.row#title"
+    ]
+  },
+
+  "flex-layout.row#title": {
+    "props": {
+      "blockClass": "title"
+    },
+    "children": [
+      "flex-layout.col#calculator"
+    ]
+  },
+
+  "flex-layout.col#calculator": {
+    "children": [
+      "calculator"
+    ]
+  }
+}

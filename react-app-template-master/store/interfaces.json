@@ -7,5 +7,12 @@
   },
   "discount": {
     "component": "Discount"
+  },
+  "calculator": {
+    "component": "Calculator"
+  },
+  "custom-shelf": {
+    "component": "Shelf"
   }
 }
+

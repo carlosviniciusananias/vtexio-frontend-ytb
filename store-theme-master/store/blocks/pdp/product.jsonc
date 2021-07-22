@@ -6,6 +6,7 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
+      "custom-shelf",
       "shelf.relatedProducts",
       "product-reviews",
       "product-questions-and-answers"
